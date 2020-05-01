@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body, html {
+    margin: 0;
+    background-color: #F8F8FF;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+.glider {
+    width: 400px;
+    height: 650px;
+    background-color: black;
+    border-radius: 16px;
+    -webkit-box-shadow: -3px 30px 44px -2px rgba(0,0,0,0.5);
+    -moz-box-shadow: -3px 30px 44px -2px rgba(0,0,0,0.5);
+    box-shadow: -3px 30px 44px -2px rgba(0,0,0,0.5);
+}
+
+#card-logo {
+    width: 175px;
+    z-index: 1;
+}
+
+#main-photo {
+    background-image: url(../images/main-photo.jpg);
+}
+
+.photo { 
+    position: relative;
+    background-size: cover;
+    top: 25px;
+    min-height: 340px;
+    width: 92%;
+    border-radius: 16px;
+}
+
+#second-image {
+    width: 92%;
+    position: relative;
+    top: 25px;
+    height: auto;
+    border-radius: 16px;
+}
+
+#third-image {
+    width: 92%;
+    height: auto;
+    position: relative;
+    bottom: 25px;
+    border-radius: 16px;
+}
+
+#main-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 58px;
+    color: #F8F8FF;
+}
+
+#main-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: #F8F8FF;
+    position: relative;
+    bottom: 35px;
+}
+
+.first-card {
+    display: flex;
+    flex-direction: column;
+}

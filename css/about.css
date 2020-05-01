@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body, html {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F8F8FF;
+}
+
+
+#card-logo {
+    width: 200px;
+    margin-left: 160px;
+    padding: 40px;
+}
+
+
+.vertical { 
+    border-left: 2px solid #888; 
+    padding: 30px;
+    width: 75px;
+    height: 650px; 
+} 
+
+section > ul {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+
+section > ul > li {
+    padding: 0px;
+    width: 500px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+p { 
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    color: #555;
+}
+
+#message {
+    background-color: #F8F8FF;
+}
+
+.social-media {
+    text-align: center;
+    text-indent: -1.5em;
+}
+
+.social-media i {
+    cursor: pointer;
+    font-size: 2.6em;
+    color: #555;
+    opacity: 0.85;
+    transition: all 0.3s ease 0s;
+}
+
+.social-media i:hover {
+    opacity: 1;
+}
+
+
+

@@ -1,0 +1,17 @@
+{"clients":[
+	{
+		"icon":"fa fa-code",
+		"title":"Businesses",
+		"text":"Book a session with me to film your professional events, create advertisements for your product, and work with your modeling team to provide content."
+	},
+	{
+		"icon":"fa fa-music",
+		"title":"Artists",
+		"text":"Models and artists of the entertainment world can book a shoot to increase their portfolio. I can help with your photos on social media with quick and creative shoots."
+	},
+	{
+		"icon":"fa fa-users",
+		"title":"Events",
+		"text":"Promote your event by booking me to take care of your video and photo production.  I shoot weddings, concerts, parties, and any other events."
+	}
+]}

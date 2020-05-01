@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Home</title>
+		<link rel="stylesheet" href="css/glider.css">
+		<script src="https://use.fontawesome.com/b0ae5493ab.js"></script>
+		<link rel="stylesheet" href="css/home.css" />
+		<link rel="stylesheet" href="css/nav.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<ul class="menu">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="photos.html">Photos</a></li>
+					<li><a href="watch.html">Watch</a></li>
+					<li><a href="book.html">Book</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="glider-contain">
+				<button aria-label="button to move slider to previous" class="glider-prev" ><i class="fa fa-chevron-left"></i></button>
+				<div class="glider" aria-label="slider that moves left and right">
+					<div class ="first-card">
+						<div class="photo" id="main-photo" aria-label="jason skating"></div>
+						<p id="main-title">JamTyme Productions</p>
+						<p id="main-text">Photo. Video. Marketing.</p>
+					</div>
+					<div><img src="images/jason-about.jpg" alt="jason-glasses" id="second-image" aria-label="jason fun photo"></div>
+					<div><img src="images/jason-smoke.jpg" alt="jason-smoke" id="third-image" aria-label="jason with smoke grenade"></div>
+					<div>
+						<img src="images/logo-white.png" alt="card-logo" id="card-logo" aria-label="white company logo with palm trees">
+					</div>
+				</div>	
+			
+				
+				<button aria-label="button to move slider to next" class="glider-next"><i class="fa fa-chevron-right"></i></button>
+			</div>
+			<div id="dots" role="tablist" class="dots" aria-label="small dot buttons that move slider"></div>
+		</main>
+		
+		<footer>
+			Jason Lyn - 2020
+		</footer>
+		<script src="js/glider.js"></script>
+		<script src="js/home.js"></script>
+
+
+	</body>
+</html>

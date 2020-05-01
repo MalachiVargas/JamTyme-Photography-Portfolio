@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+#container {
+  background: #F8F8FF;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#container h2 {
+  font-size: 30px;
+  color: #1058b7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#container ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+#container ul li {
+  padding: 40px;
+  width: 300px;
+  -webkit-transition: -webkit-box-shadow .3s;
+  transition: -webkit-box-shadow .3s;
+  transition: box-shadow .3s;
+  transition: box-shadow .3s, -webkit-box-shadow .3s;
+}
+
+#container ul li:hover {
+  -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#container ul li:hover span {
+  color: #1058b7;
+}
+
+#container ul li:hover p {
+  color: #555;
+}
+
+#container ul li:hover h3 {
+  color: #1058b7;
+}
+
+#container ul li:hover h3:after {
+  width: 25px;
+}
+
+#container ul li span {
+  font-size: 2.6em;
+  display: block;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  color: #A2A2A2;
+}
+
+#container ul li span:before, #container ul li span:after {
+  position: static;
+}
+
+#container ul li h3 {
+  color: #6f6f6f;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 100;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#container ul li h3:after {
+  content: '';
+  position: relative;
+  left: 50%;
+  top: 20px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: #6f6f6f;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#container ul li p {
+  color: #A2A2A2;
+  text-align: left;
+  text-indent: 1em;
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  font-family: 'Montserrat', sans-serif;
+}
+/*# sourceMappingURL=book-description.css.map */
